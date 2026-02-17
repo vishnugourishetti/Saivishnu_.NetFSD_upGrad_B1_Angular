@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-Learning Course Registration Portal </title>
+</head>
+<body>
+    <h1 align="center">Course Registration Portal</h1>
+    <hr><br>
+    <section align="center">
+        <h2>Program Introduction</h2>
+
+        <video width="500" height="300" controls>
+            <source src="welcome.mp4" type="video/mp4">
+            <source src="welcome.webm" type="video/webm">
+            <track src="txt.vtt" kind="subtitles" srclang="en" label="English" default>
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <br>
+    <hr>
+        <section align="center">
+        <h2>Enrollment Progress</h2>
+        <label>Completion Status:</label>
+        <progress value="60" max="100"></progress>
+    </section>
+        <br>
+    <hr>
+    <form action="" autocomplete="on">
+        <table align="center">
+            <tr>
+                <td><b>Enter Student Name:</b></td>
+                <td><input type="text" required placeholder="Enter your Name" autofocus="on"></td>
+            </tr>
+             <tr>
+            <td><b>Email :</b></td>
+            <td><input type="email" placeholder="example@mail.com" required title="Enter correct email address"></td>
+           </tr>
+            <tr>
+            <td><b>Mobile :</b></td>
+            <td><input type="tel" pattern="[0-9]{10}" required placeholder="Enter your Mobile number" title="Enter correct mobile number"></td>
+           </tr>
+           <tr>
+            <td><b>Select Desired Course:</b></td>
+            <td><input type="text" list="course" required></td>
+            <datalist id="course">
+                <option value="Java"></option>
+                <option value="Python"></option>
+                <option value="C# "></option>
+                <option value="ASP.Net"></option>
+                <option value="AWS"></option>
+                <option value="Devops"></option>
+            </datalist>
+           </tr> 
+            <tr>
+            <td><b>Select your Batch month </b></td>
+            <td><input type="month" required></td>
+           </tr>
+                    <tr>
+            <td><b> Preferred session timing </b></td>
+            <td><input type="time" required></td>
+           </tr>
+           <tr>
+            <td>
+                <b>Skill Rating(1-5)</b>
+            </td>
+            <td><input type="range" min="1" max="5" required></td>
+           </tr>
+                   <tr>
+            <td colspan="2" align="center"><input type="submit"></td>
+           </tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>

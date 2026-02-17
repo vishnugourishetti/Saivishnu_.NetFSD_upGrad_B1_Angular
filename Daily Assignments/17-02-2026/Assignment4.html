@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Tourism Booking Platform </title>
+</head>
+<body>
+<header align="center">
+    <h1>Travel Booking Portal</h1>
+</header>    
+<section align="center">
+    <h2>Feel the Journey</h2>
+    <audio  loop controls>
+        <source src="a1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</section >
+<section align="center">
+    <h2>Explore the World with Us</h2>
+    <video width="600" height="400" controls poster="travw.png">
+        <source src="travel.mp4" type="video/mp4">
+        <source src="travel.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</section>
+<hr><br><br>
+<section>
+<h2>Book Your Flight</h2>
+
+<form action="#" method="post">
+
+    <label>Source City:</label><br>
+    <input list="citylist" placeholder="Enter departure city" required>
+
+    <br><br>
+
+    <label>Destination City:</label><br>
+    <input list="citylist" 
+           placeholder="Enter destination city" required>
+
+    <datalist id="citylist">
+        <option value="New York">
+        <option value="London">
+        <option value="Dubai">
+        <option value="Singapore">
+        <option value="Sydney">
+        <option value="Mumbai">
+        <option value="Paris">
+    </datalist>
+
+    <br><br>
+
+    <label>Departure Date:</label><br>
+    <input type="date" required>
+
+    <br><br>
+
+    <label >Return Date:</label><br>
+    <input type="date" required >
+
+    <br><br>
+
+    <label >Travel Class:</label><br>
+    <select required>
+        <option value="">--Select Class--</option>
+        <option>Economy</option>
+        <option>Premium Economy</option>
+        <option>Business</option>
+        <option>First Class</option>
+    </select>
+
+    <br><br>
+
+    <label>Preferred Airline:</label><br>
+    <input list="airlineList" placeholder="Choose or type airline name" required>
+
+    <datalist id="airlineList">
+        <option value="Emirates">
+        <option value="Qatar Airways">
+        <option value="Singapore Airlines">
+        <option value="British Airways">
+        <option value="Air India">
+    </datalist>
+
+    <br><br>
+
+ 
+    <label >Number of Passengers (1-10):</label><br>
+    <input type="number" 
+           min="1" max="10" required>
+
+    <br><br>
+
+    <label >Meal Preference Color Tag:</label><br>
+    <input type="color" required>
+
+    <br><br>
+
+    <label >Special Assistance Notes:</label><br>
+    <textarea  rows="4" cols="40"
+              placeholder="Mention wheelchair support, medical assistance, dietary restrictions, or other special requirements..."
+              required></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Book Now">
+
+</form>
+</section>
+
+
+</body>
+</html>
+</section>
+</body>
+</html>

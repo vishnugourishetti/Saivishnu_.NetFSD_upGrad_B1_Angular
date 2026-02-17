@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Hospital Appointment System</title>
+</head>
+<body>
+    <h1 align="center">Hospital Appointment Booking</h1>
+<fieldset> 
+    <form action="" autocomplete="on">
+        <table>
+            <tr>
+                <td><b>Enter Patient Name</b></td>
+                <td><input type="text" name="" id="" required  placeholder="Enter your Name"></td>
+            </tr>
+           <tr>
+            <td><b>Select Department:</b></td>
+            <td><input type="text" list="dept"  placeholder="Select Department"></td>
+            <datalist id="dept">
+                <option value="General Medicine"></option>
+                <option value="General Surgery"></option>
+                <option value="Cardiology "></option>
+                <option value="Neurology"></option>
+                <option value="Orthopedics"></option>
+                <option value="Emergency Department"></option>
+            </datalist>
+           </tr> 
+           <tr>
+            <td><b>Choose preferred doctor:</b></td>
+            <td><input type="text" placeholder="Choose your doctor" required list="doctor"></td>
+                  <datalist id="doctor">
+                <option value="Dr. M. Ramesh"></option>
+                <option value="Dr. G. Suresh"></option>
+                <option value="Ch. Alex "></option>
+                <option value="Sara"></option>
+                <option value="Mani"></option>
+            </datalist>
+           </tr>
+
+           <tr>
+            <td><b>Upload medical reports </b></td>
+            <td><input type="file" required multiple></td>
+           </tr>
+           <tr>
+            <td><b>Patient Age</b></td>
+            <td><input type="number" required title="Enter Correct Age" placeholder="Enter your Age" min="1" max="105"></td>
+           </tr>
+           <tr>
+            <td><b>Mobile :</b></td>
+            <td><input type="tel" pattern="[0-9]{10}" required placeholder="Enter your Mobile number" title="Enter correct mobile number"></td>
+           </tr>
+                     <tr>
+            <td><b>Email :</b></td>
+            <td><input type="email" placeholder="example@mail.com" required title="Enter correct email address"></td>
+           </tr>
+           <tr>
+            <td><b>Emergency Case:</b></td>
+            <td><input type="checkbox" ></td>
+           </tr>
+                     <tr>
+            <td><b>Select appointment date and time: </b></td>
+            <td><input type="datetime-local" required min="2026-02-18T00:00"></td>
+           </tr>
+           <tr>
+            <td colspan="2" align="center"><input type="submit"></td>
+           </tr>
+        </table>
+
+
+    </form>
+    </fieldset>
+</body>
+</html>
