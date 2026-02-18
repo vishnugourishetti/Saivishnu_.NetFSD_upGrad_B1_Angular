@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 15px;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.sidebar ul li:first-child {
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.summary {
+    display: flex;
+}
+
+.card {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions th, .transactions td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.credit {
+    color: green;
+}
+
+.debit {
+    color: red;
+}
+
+input[type="password"] {
+    border: 2px solid #003366;
+    padding: 8px;
+}
+
+button:active {
+    background-color: #001f4d;
+    color: white;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

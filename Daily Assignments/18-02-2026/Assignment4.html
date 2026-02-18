@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureBank</title>
+    <link rel="stylesheet" href="Assignment4.css">
+
+    <style>
+        .balance-highlight {
+            background-color: #d4edda;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div style="background:red;color:white;padding:10px;text-align:center;">
+    ⚠ Unusual login attempt detected!
+</div>
+
+<header>
+    <h1>SecureBank</h1>
+</header>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+        <ul>
+            <li>Dashboard</li>
+            <li>Accounts</li>
+            <li>Transfers</li>
+        </ul>
+    </aside>
+
+    <main>
+
+        <section class="summary">
+            <div class="card balance-highlight">
+                <h3>Account Balance</h3>
+                <p>₹50,000</p>
+            </div>
+
+            <div class="card">
+                <h3>Savings</h3>
+                <p>₹30,000</p>
+            </div>
+        </section>
+
+        <section class="transactions">
+            <h3>Recent Transactions</h3>
+            <table>
+                <tr><th>Date</th><th>Description</th><th>Amount</th></tr>
+                <tr><td>01 Feb</td><td>Salary</td><td class="credit">+₹20,000</td></tr>
+                <tr><td>02 Feb</td><td>Shopping</td><td class="debit">-₹2,000</td></tr>
+            </table>
+        </section>
+
+        <section class="login">
+            <h3>Login</h3>
+            <input type="text" placeholder="Username"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <button>Login</button>
+        </section>
+
+    </main>
+
+</div>
+
+<footer>
+    <p>© 2026 SecureBank</p>
+</footer>
+</body>
+</html>

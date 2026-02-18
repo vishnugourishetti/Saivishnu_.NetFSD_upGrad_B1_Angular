@@ -1,0 +1,89 @@
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4faff;
+}
+
+p {
+    color: #333;
+}
+
+
+header {
+    background-color: #cce6ff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin:  15px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+.banner {
+    padding: 60px;
+    text-align: center;
+    background-color: #e6f2ff;
+}
+
+
+.services {
+    padding: 40px;
+    text-align: center;
+}
+
+.services p {
+    font-size: 14px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #99ccff;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+
+input[type="text"] {
+    border: 2px solid #99ccff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #cce6ff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
