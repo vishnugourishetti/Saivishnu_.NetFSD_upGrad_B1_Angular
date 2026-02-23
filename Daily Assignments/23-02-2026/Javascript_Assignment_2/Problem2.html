@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Based User</title>
+</head>
+<body>
+    <button onclick="displayUserInfo()">Click Here</button>
+    <p id="name"></p>
+    <p id="age"></p>
+    <p id="city"></p>
+<script>
+    function displayUserInfo(userObj){
+
+        let user={
+            name:"Vishnu",
+            age:25,
+            City:"Hyd"
+        }
+        document.getElementById('name').innerText=user.name
+        document.getElementById('age').innerText=user.age
+        document.getElementById('city').innerText=user.city
+    }
+</script>
+</body>
+</html>

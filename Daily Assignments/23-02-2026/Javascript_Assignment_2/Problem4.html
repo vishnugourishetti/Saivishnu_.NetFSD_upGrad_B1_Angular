@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+</head>
+<body>
+
+    <div id="details" 
+         style="width:200px; padding:20px; background-color:aqua; margin-top:15px;">
+    </div>
+
+    <script>
+        let student = {
+            name: "Vishnu",
+            rollNo: 14,
+            marks: 96
+        };
+       function updateStudentProfile(studentObj) {
+            document.getElementById('details').innerHTML =
+                "Name: " + studentObj.name + "<br>" +
+                " | Roll No: " + studentObj.rollNo +"<br>" + 
+                " | Marks: " + studentObj.marks;
+        }
+
+        function updateMarks(newMarks) {
+            student.marks = newMarks;
+            updateStudentProfile(student);
+        }
+
+        updateStudentProfile(student);
+   setTimeout(function() {
+        updateMarks(95);
+    }, 3000);
+    </script>
+
+</body>
+</html>

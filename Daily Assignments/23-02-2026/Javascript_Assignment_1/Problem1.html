@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness 
+    </title>
+</head>
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        h1 {
+            padding: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: navy;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        p {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            body {
+                background-color: lightcoral;   /* Background changes */
+            }
+
+            .navbar {
+                flex-direction: column;        /* Vertical navigation */
+                align-items: center;
+            }
+
+            .navbar a {
+                margin: 10px 0;
+                font-size: 16px;             
+            }
+
+            p {
+                font-size: 16px;             
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Responsive Website</h1>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <p>
+        This webpage looks different on mobile and desktop screens.
+        Resize the browser to test responsiveness.
+    </p>
+</body>
+</html>

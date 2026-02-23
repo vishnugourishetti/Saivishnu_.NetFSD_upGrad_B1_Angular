@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter APP</title>
+</head>
+<body>
+    <h3 id="cntr">0</h3>
+    <button id="incr" onclick="incrementCounter(1)">Increment</button>
+    <button id="rst"onclick="incrementCounter(0)">Reset</button>
+
+    <script>
+        let count=0
+        function incrementCounter(step){
+            if(step==0){
+                count=0
+            }else{
+                count=count+step
+            }
+            document.getElementById('cntr').innerText=count;
+        }
+
+    </script>
+</body>
+</html>
