@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+</head>
+<body>
+    
+    <h2>My Daily Notes</h2>
+
+    <textarea id="noteArea" rows="8" cols="40" placeholder="Write your notes here..."></textarea>
+    <br><br>
+
+
+    <button onclick="saveNote()">Save</button>
+    <button onclick="clearNote()">Clear</button>
+
+    <script>
+
+        window.onload = function() {
+            let savedNote = localStorage.getItem("myNote");
+            if (savedNote !== null) {
+                document.getElementById("noteArea").value = savedNote;
+            }
+        }
+
+
+        function saveNote() {
+            let note = document.getElementById("noteArea").value;
+            localStorage.setItem("myNote", note);
+            alert("Note Saved!");
+        }
+
+        function clearNote() {
+            localStorage.removeItem("myNote");
+            document.getElementById("noteArea").value = "";
+            alert("Note Cleared!");
+        }
+
+    </script>
+
+</body>
+</html>
