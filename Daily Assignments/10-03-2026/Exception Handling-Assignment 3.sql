@@ -1,0 +1,15 @@
+CREATE PROCEDURE sp_DeleteStudent
+@StudentID INT
+AS
+BEGIN
+BEGIN TRY
+    DELETE FROM Students
+    WHERE StudentID=@StudentID
+END TRY
+BEGIN CATCH
+    PRINT ERROR_MESSAGE()
+END CATCH
+END;
+
+
+EXEC sp_DeleteStudent 501;

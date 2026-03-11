@@ -1,0 +1,28 @@
+CREATE PROCEDURE sp_TransferStudentDepartment
+@StudentID INT,
+@NewDepartmentID INT
+AS
+BEGIN
+BEGIN TRANSACTION
+
+BEGIN TRY
+
+IF NOT EXISTS (SELECT 1 FROM Departments WHERE DepartmentID=@NewDepartmentID)
+BEGIN
+    RAISERROR('Department does not exist',16,1)
+END
+
+UPDATE Students
+SET DepartmentID=@NewDepartmentID
+WHERE StudentID=@StudentID
+
+COMMIT TRANSACTION
+
+END TRY
+BEGIN CATCH
+
+ROLLBACK TRANSACTION
+PRINT ERROR_MESSAGE()
+
+END CATCH
+END;
