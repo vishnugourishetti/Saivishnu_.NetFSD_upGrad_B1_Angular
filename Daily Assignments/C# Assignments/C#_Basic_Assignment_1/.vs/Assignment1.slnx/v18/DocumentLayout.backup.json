@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\assignment1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:assignment1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|d:\\c#\\assignment1\\exercise6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDFFE6F-507A-43AA-B1E4-90CEE15015E9}|Assignment1.csproj|solutionrelative:exercise6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Exercise7.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise7.cs",
+              "RelativeDocumentMoniker": "Exercise7.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise7.cs",
+              "RelativeToolTip": "Exercise7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:33:50.666Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Exercise6.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise6.cs",
+              "RelativeDocumentMoniker": "Exercise6.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise6.cs",
+              "RelativeToolTip": "Exercise6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:21:24.887Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Assignment1",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Assignment1.csproj",
+              "RelativeDocumentMoniker": "Assignment1.csproj",
+              "ToolTip": "D:\\C#\\Assignment1\\Assignment1.csproj",
+              "RelativeToolTip": "Assignment1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-17T19:43:25.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Exercise8.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise8.cs",
+              "RelativeDocumentMoniker": "Exercise8.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise8.cs",
+              "RelativeToolTip": "Exercise8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:39:35.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Exercise5.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise5.cs",
+              "RelativeDocumentMoniker": "Exercise5.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise5.cs",
+              "RelativeToolTip": "Exercise5.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:18:07.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exercise4.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise4.cs",
+              "RelativeDocumentMoniker": "Exercise4.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise4.cs",
+              "RelativeToolTip": "Exercise4.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:14:44.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exercise3.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise3.cs",
+              "RelativeDocumentMoniker": "Exercise3.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise3.cs",
+              "RelativeToolTip": "Exercise3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:10:04.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exercise2.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise2.cs",
+              "RelativeDocumentMoniker": "Exercise2.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise2.cs",
+              "RelativeToolTip": "Exercise2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:05:35.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercise1.cs",
+              "DocumentMoniker": "D:\\C#\\Assignment1\\Exercise1.cs",
+              "RelativeDocumentMoniker": "Exercise1.cs",
+              "ToolTip": "D:\\C#\\Assignment1\\Exercise1.cs",
+              "RelativeToolTip": "Exercise1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T17:09:49.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
